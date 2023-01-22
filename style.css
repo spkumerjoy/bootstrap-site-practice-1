@@ -1,0 +1,62 @@
+:root {
+    --color-primary: #0C2E8A;
+    --color-secondary: #50D8AF;
+}
+.txt-1st-color{
+    color: var(--color-primary) !important;
+}
+.txt-2nd-color{
+    color: var(--color-secondary) !important;
+}
+.bg-1st-color{
+    background: var(--color-primary) !important;
+}
+.bg-2nd-color{
+    background: var(--color-secondary) !important;
+}
+.btn-1st-design{
+    background: var(--color-primary);
+}
+.btn-1st-design:hover{
+    background: var(--color-secondary);
+}
+.btn-2nd-design{
+    background: var(--color-secondary);
+}
+.btn-2nd-design:hover{
+    background: var(--color-primary);
+}
+.banner-img-1{
+    background: linear-gradient(0deg, rgba(18, 1, 65, 0.336), rgba(204, 0, 255, 0.3)), url(image/carousel/1.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.banner-img-2{
+    background: linear-gradient(0deg, rgba(18, 1, 65, 0.336),rgba(204, 0, 255, 0.3)), url(image/carousel/2.jpg);
+        background-size: cover;
+        height: 100vh
+}
+.banner-img-3{
+    background: linear-gradient(0deg, rgba(18, 1, 65, 0.336),rgba(204, 0, 255, 0.3)), url(image/carousel/3.jpg);
+        background-size: cover;
+        height: 100vh
+}
+.btn-white {
+    color: white;
+    border-color: white;
+}
+.btn-white:hover {
+    color: var(--color-primary);
+    border-color: var(--color-secondary);
+    background: var(--color-secondary);
+}
+.ico-design{
+    font-size:1.5em;
+    color: var(--color-primary);
+}
+.ico-design:hover{
+    color: var(--color-secondary);
+}
+#footer-wrap li{
+    margin-top: 15px !important;
+}

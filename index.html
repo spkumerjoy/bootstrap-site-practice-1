@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fontawesome-cdn-file -->
+    <script src="https://kit.fontawesome.com/2a2e9812a2.js" crossorigin="anonymous"></script>
+    <!-- BootStrap-css-cdn-files -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <!-- fav-icon -->
+        <link rel="icon" type="image/x-icon" href="image/fav.png">
+    <link rel="stylesheet" href="style.css">
+    <title>BootStrap-Site-Practice-1</title>
+</head>
+<body>
+    <header>
+        <!-- BootStrap-navbar-start -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary container">
+            <div class="container-fluid">
+                <h1 class="fw-bold display-4 txt-1st-color">Reve<span class="txt-2nd-color">al</span></h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav fw-semibold ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Google</a></li>
+                                <li><a class="dropdown-item" href="#">Facebook</a></li>
+                                <li><a class="dropdown-item" href="#">Twitter</a></li>
+                                <li><a class="dropdown-item" href="#">Open AI</a></li>
+                                <li><a class="dropdown-item" href="#">Linkedin</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Log in</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- BootStrap-navbar-End -->
+        <!-- Slider-section-Started -->
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="banner-img-1 d-flex justify-content-center align-items-center">
+                            <div class="text-center">
+                                <h1 class="fw-bold display-3 txt-1st-color">Making <span class="txt-2nd-color">your ideas</span><br>
+                                    happen!</h1>
+                                <p class="txt-1st-color">The most informative blockchain news source. Publishing multiple articles
+                                    and videos daily.</p>
+                                <button class="btn btn-1st-design text-white me-1">Get Started</button>
+                                <button class="btn btn-2nd-design text-white ms-1">Our Projects</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="banner-img-2 d-flex justify-content-center align-items-center">
+                            <div class="text-center">
+                                <h1 class="fw-bold display-3 txt-1st-color">Making <span class="txt-2nd-color">your ideas</span><br>
+                                    happen!</h1>
+                                <p class="txt-1st-color">The most informative blockchain news source. Publishing multiple articles
+                                    and videos
+                                    daily.</p>
+                                <button class="btn btn-1st-design text-white me-1">Get Started</button>
+                                <button class="btn btn-2nd-design text-white ms-1">Our Projects</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="banner-img-3 d-flex justify-content-center align-items-center">
+                            <div class="text-center">
+                                <h1 class="fw-bold display-3 txt-1st-color">Making <span class="txt-2nd-color">your ideas</span><br>
+                                    happen!</h1>
+                                <p class="txt-1st-color">The most informative blockchain news source. Publishing multiple articles
+                                    and videos
+                                    daily.</p>
+                                <button class="btn btn-1st-design text-white me-1">Get Started</button>
+                                <button class="btn btn-2nd-design text-white ms-1">Our Projects</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- Slider-section-End -->
+    </header>
+    <main>
+        <!-- Who-we-are-section-started -->
+        <section class="container py-5 my-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img class="w-100 img-fluid" src="image/about-img.jpg" alt="about-img">
+                </div>
+                <div class="col-md-6">
+                    <h1 class="fw-bold txt-1st-color">Who we are</h1>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <ul>
+                        <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                        <li>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                        <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta
+                        storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Who-we-are-section-End -->
+        <!-- Service-section-started -->
+        <section class="container">
+            <h1 class="fw-bold txt-1st-color">Service</h1>
+            <p>Retaining customer base is important for any enterprise, it takes great effort to make good customer relationship and
+            minute error can ruin it. Owing to our outstanding customer service we have maintained the 85 % customer retention rate.
+            We, the best IT service provider company in Noida help your business in getting loyalty back by transforming into latest
+            advanced IT technology.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-center align-items-center shadow p-4 my-4">
+                        <i class="fa-solid fa-brain fa-4x txt-2nd-color"></i>
+                        <div class="ms-3">
+                            <h3 class="txt-2nd-color">Digital Transforming</h3>
+                            <p>Transforming business models of the organization is an important aspect of digital transformation, it comprises
+                                transforming the business functions, activities, processes, models, assets, and activities.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-center align-items-center shadow p-4 my-4">
+                        <i class="fa-solid fa-swatchbook fa-4x txt-2nd-color"></i>
+                        <div class="ms-3">
+                            <h3 class="txt-2nd-color">UI/UX Design</h3>
+                            <p>Transforming business models of the organization is an important aspect of digital transformation, it comprises
+                                transforming the business functions, activities, processes, models, assets, and activities.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-center align-items-center shadow p-4 my-5">
+                        <i class="fa-solid fa-microchip fa-4x txt-2nd-color"></i>
+                        <div class="ms-3">
+                            <h3 class="txt-2nd-color">IT Infrastructure</h3>
+                            <p>Transforming business models of the organization is an important aspect of digital transformation, it comprises
+                                transforming the business functions, activities, processes, models, assets, and activities.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-center align-items-center shadow p-4 my-5">
+                        <i class="fa-solid fa-magnifying-glass-chart fa-4x txt-2nd-color"></i>
+                        <div class="ms-3">
+                            <h3 class="txt-2nd-color">Business Analysis</h3>
+                            <p>Transforming business models of the organization is an important aspect of digital transformation, it comprises
+                                transforming the business functions, activities, processes, models, assets, and activities.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Service-section-End -->
+        <!-- Client-section-started -->
+        <section class="container py-5">
+            <h1 class="fw-bold txt-1st-color">Clients</h1>
+            <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid
+            quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+            <div>
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <img class="w-100 img-fluid" src="image/clients/client-1.png" alt="client">
+                                </div>
+                                <div class="col-md-2">
+                                    <img class="w-100 img-fluid" src="image/clients/client-2.png" alt="client">
+                                </div>
+                                <div class="col-md-2">
+                                    <img class="w-100 img-fluid" src="image/clients/client-3.png" alt="client">
+                                </div>
+                                <div class="col-md-2">
+                                    <img class="w-100 img-fluid" src="image/clients/client-4.png" alt="client">
+                                </div>
+                                <div class="col-md-2">
+                                    <img class="w-100 img-fluid" src="image/clients/client-5.png" alt="client">
+                                </div>
+                                <div class="col-md-2">
+                                    <img class="w-100 img-fluid" src="image/clients/client-6.png" alt="client">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <img class="w-100 img-fluid" src="image/clients/client-7.png" alt="client">
+                                </div>
+                                <div class="col-md-2">
+                                    <img class="w-100 img-fluid" src="image/clients/client-8.png" alt="client">
+                                </div>
+                                <div class="col-md-2">
+                                    <img class="w-100 img-fluid" src="image/clients/client-1.png" alt="client">
+                                </div>
+                                <div class="col-md-2">
+                                    <img class="w-100 img-fluid" src="image/clients/client-2.png" alt="client">
+                                </div>
+                                <div class="col-md-2">
+                                    <img class="w-100 img-fluid" src="image/clients/client-3.png" alt="client">
+                                </div>
+                                <div class="col-md-2">
+                                    <img class="w-100 img-fluid" src="image/clients/client-4.png" alt="client">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- Client-section-started -->
+        <!-- Call-to-Action-section -->
+        <section class="bg-1st-color my-5">
+            <div class="container py-5">
+                <h2 class="fw-bold text-white">Call to Action</h2>
+                <p class="text-white">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <button class="btn btn-white">Call to Action</button>
+            </div>
+        </section>
+        <!-- Call-to-Action-section -->
+        <!-- Our-Team-section-Started -->
+        <section class="container my-5 py-5">
+            <h1 class="txt-1st-color fw-bold">Our Team</h1>
+            <p>Sit sint consectetur velit quos quisquam cupiditate nemo qui</p>
+            <div class="d-flex flex-wrap justify-content-between">
+                <div class="card" style="width: 16rem;">
+                    <div class="text-center pt-4">
+                        <img src="image/team-1.jpg" alt="" class="card-img-to w-50 border rounded-circle border-primary">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="fw-bold txt-2nd-color">Walter White</h5>
+                        <p class="fst-italic">Chief Executive Officer</p>
+                        <p>qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut</p>
+                        <div class="">
+                            <i class="fa-brands fa-facebook-f ico-design me-2"></i>
+                            <i class="fa-brands fa-twitter ico-design ms-1 me-1"></i>
+                            <i class="fa-brands fa-linkedin ico-design ms-2"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <div class="text-center pt-4">
+                        <img src="image/team-2.jpg" alt="" class="card-img-to w-50 border rounded-circle border-primary">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="fw-bold txt-2nd-color">Sarah Jhinson</h5>
+                        <p class="fst-italic">Product Manager</p>
+                        <p>qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut</p>
+                        <div class="">
+                            <i class="fa-brands fa-facebook-f ico-design me-2"></i>
+                            <i class="fa-brands fa-twitter ico-design ms-1 me-1"></i>
+                            <i class="fa-brands fa-linkedin ico-design ms-2"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <div class="text-center pt-4">
+                        <img src="image/team-3.jpg" alt="" class="card-img-to w-50 border rounded-circle border-primary">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="fw-bold txt-2nd-color">William Anderson</h5>
+                        <p class="fst-italic">CTO</p>
+                        <p>qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut</p>
+                        <div class="">
+                            <i class="fa-brands fa-facebook-f ico-design me-2"></i>
+                            <i class="fa-brands fa-twitter ico-design ms-1 me-1"></i>
+                            <i class="fa-brands fa-linkedin ico-design ms-2"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <div class="text-center pt-4">
+                        <img src="image/team-4.jpg" alt="" class="card-img-to w-50 border rounded-circle border-primary">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="fw-bold txt-2nd-color">Amanda Jepson</h5>
+                        <p class="fst-italic">Accountant</p>
+                        <p>qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut</p>
+                        <div class="">
+                            <i class="fa-brands fa-facebook-f ico-design me-2"></i>
+                            <i class="fa-brands fa-twitter ico-design ms-1 me-1"></i>
+                            <i class="fa-brands fa-linkedin ico-design ms-2"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Our-Team-section-End -->
+        <!-- Contact-section-Started -->
+        <section class="container my-5 py-5">
+            <h1 class="txt-1st-color fw-bold">Contact Us</h1>
+            <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid
+            quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center my-3">
+                        <i class="fa-solid fa-phone fa-2x txt-2nd-color"></i>
+                        <div class="ms-3">
+                            <h5 class="txt-2nd-color">Phone Number</h5>
+                            <h6 class="txt-1st-color fw-bold">+8801XXX XXX XXX</h6>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center my-3">
+                        <i class="fa-solid fa-envelope fa-2x txt-2nd-color"></i>
+                        <div class="ms-3">
+                            <h5 class="txt-2nd-color">E-mail</h5>
+                            <h6 class="txt-1st-color fw-bold">info@reveal.com</h6>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center my-3">
+                        <i class="fa-solid fa-location-dot fa-2x txt-2nd-color"></i>
+                        <div class="ms-3">
+                            <h5 class="txt-2nd-color">Address</h5>
+                            <h6 class="txt-1st-color fw-bold">A108 Adam Street, New York</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="row my-3">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="col">
+                            <input type="email" class="form-control" placeholder="Your E-mail">
+                        </div>
+                    </div>
+                    <input type="text" class="form-control my-3" placeholder="Subject">
+                    <textarea class="form-control my-3 h-50" placeholder="Your Message"></textarea>
+                    <button class="btn btn-2nd-design text-white">Send Message</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer-wrap" class="mt-5 pt-5 bg-1st-color">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <h1 class="fw-bold text-white display-4">Reveal</h1>
+                    <ul class="list-unstyled text-white">
+                        <li>A108 Adam Street, New York, NY 535022, United States</li>
+                        <li>Phone: +8801XXX XXX XXX</li>
+                        <li>E-mail:  info@reveal.com</li>
+                    </ul>
+                    
+                </div>
+                <div class="col-md-2 text-white ">
+                    <h6>Useful Links</h6>
+                    <ul class="list-unstyled">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact Us</li>
+                        <li>Login</li>
+                    </ul>
+                </div>
+                <div class="col-md-2 text-white ">
+                    <h6>Our Services</h6>
+                    <ul class="list-unstyled">
+                        <li>IT services</li>
+                        <li>UX/UI design</li>
+                        <li>Web development</li>
+                        <li>App Development</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-white">
+                    <h6>Join Our Newsletter</h6>
+                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-primary" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center text-white py-3">
+            <p>&copy; Copyright Reveal. All Rights Reserved</p>
+        </div>
+    </footer>
+    <!-- BootStrap-js-cdn-files -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+</html>
